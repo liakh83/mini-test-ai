@@ -37,6 +37,13 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# Exclude node_modules explicitly inside frontend and backend subdirectories
+/frontend/node_modules
+/backend/node_modules
+
+#Exclude the specific build output directory for the Vite frontend
+/frontend/dist
+
 # Dependency directories
 node_modules/
 jspm_packages/
